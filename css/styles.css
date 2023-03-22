@@ -121,13 +121,16 @@ header {
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
   color: var(--color-hover-focus);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list .nav-link:active {
   color: var(--color-hover-focus);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .active,
 .nav-link:hover.current::after {
   color: var(--color-hover-focus);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current{
   position: relative;
@@ -135,7 +138,7 @@ header {
 .nav-link.current::after{
   content: ' ';
   position: absolute;
-  bottom: -1px;
+  bottom: -3px;
   left: 0;
   width: 100%;
   height: 4px;
@@ -163,6 +166,7 @@ address {
 .address-link:hover,
 .address-link:focus {
   color: var(--color-hover-focus);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Контент сторінки */
 main {
@@ -213,6 +217,7 @@ main {
 .hero-button:focus {
   background-color: var(--color-hover-focus);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Секція з рішеннями */
 .section-features {
@@ -324,6 +329,7 @@ main {
 .card-icons-list .social-link-icon:hover,
 .card-icons-list .social-link-icon:focus{
   background-color: var(--color-hover-focus);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Секція Customers */
 .customers-icon-list{
@@ -337,6 +343,7 @@ main {
 .customers-icon{
   width: 168px;
   height: 88px;
+  color: #8E8F99;
   border: 1px solid #8E8F99;
   border-radius: 4px;
   display: flex;
@@ -350,10 +357,12 @@ main {
 .customers-icon-list .customers-icon:hover,
 .customers-icon-list .customers-icon:focus{
   border: 1px solid var(--color-hover-focus);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 .customers-icon:hover .logo-icon,
 .customers-icon:focus .logo-icon{
   fill: var(--color-hover-focus);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Підвал сторінки */
@@ -398,6 +407,7 @@ main {
 .card-icons-list .social-link-icon-footer:hover,
 .card-icons-list .social-link-icon-footer:focus{
   background-color: #31D0AA;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 footer {
@@ -470,6 +480,7 @@ footer {
   background: var(--color-hover-focus);
   color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card-set {
   display: flex;
